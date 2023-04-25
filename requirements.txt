@@ -1,10 +1,8 @@
-# Date: 01-22-2022
+# Date: 25-04-2023
 
 # Minimum requirements for a plotly dash application
 numpy==1.23.5
 streamlit
-PIL
+Pillow
+tensorflow
 keras
-
-# Required for deployment on Heroku
-gunicorn==20.1.0
