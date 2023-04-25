@@ -77,6 +77,7 @@ if not st.session_state['rotation_model_trained']:
 
 # streamlit web application
 st.title('CIFAR-10 Rotation Prediction')
+st.write("This app demonstrates straightened images after angle rotation prediciton of the rotated CIFAR-10 test images.")
 st.subheader('Select an image from the CIFAR-10 test set')
 
 # displaying the rotated test image
